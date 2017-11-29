@@ -2,7 +2,7 @@ clear all; close all;
 
 n_spe=4;%number of speakers to be clustered
 
-[data,fs] = audioread('merge.wav');
+[data,fs] = audioread('123.wav');
 data=data(:,1);%audioread ,fs= number of samples persec.
 f_d = 0.025;  %size of block under consideration = f_d
 f_size = floor(f_d*fs);%no of samples in f_d is f_size
