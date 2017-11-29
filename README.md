@@ -1,2 +1,2 @@
 # Automatic-speech-sequence-segmentation
-To cluster and segment segment audio based on speaker
+The Main Aim of this project is to segment and cluster an audio sample based on speaker when number of speakers are not known before hand. Main challenge in the process of speaker recognition is separting audio based on speaker.It can enhance the readability of an automatic speech transcription by structuring the audio stream into speaker turns and, when used together with speaker recognition systems, by providing the speaker's true identity.Other challenges are due to multiple speakers present at the time instant
