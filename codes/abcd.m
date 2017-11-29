@@ -67,13 +67,13 @@ mfcclen = length(MFCCs)-1;
  lendfd=length(dfd)-1;
  for r=1:lendfd
     if(r==1)
-    ddfd(:,1)=fdf(:,r);
+    ddfd(:,1)=dfd(:,r);
     end
     if(r==lendfd)
-    ddfd(:,length(MFCCs))=fdf(:,r);
+    ddfd(:,length(MFCCs))=dfd(:,r);
     end
     if(r~=1 && r~=lendfd)
-    ddfd(:,r)=(fdf(:,r+1)-fdf(:,r-1))/2;
+    ddfd(:,r)=(dfd(:,r+1)-dfd(:,r-1))/2;
     end
  end
  
