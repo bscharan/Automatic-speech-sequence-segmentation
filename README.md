@@ -9,7 +9,7 @@ before executing code make sure input "wav" and code are in same folder
 
 executing code;
 navigate to code folder
-open abcd.m in matlab..
+open main.m in matlab..
 replace [data,fs] = audioread('merge.wav'); merge.wav with your input wav file..
 
 you can fix number of speakers in line 2 or
