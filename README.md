@@ -13,4 +13,4 @@ open main.m in matlab..
 replace [data,fs] = audioread('merge.wav'); merge.wav with your input wav file..
 
 you can fix number of speakers in line 2 or
-you can calculate number of speakers best fit , execute kmean_un .
+you can calculate number of speakers best fit automatically , execute kmean_un .
